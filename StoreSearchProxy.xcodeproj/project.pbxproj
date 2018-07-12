@@ -14,6 +14,7 @@
 		E8786C1220F7BE1400B127E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8786C1020F7BE1400B127E3 /* LaunchScreen.storyboard */; };
 		E8786C1D20F7BE1400B127E3 /* StoreSearchProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8786C1C20F7BE1400B127E3 /* StoreSearchProxyTests.swift */; };
 		E8786C2820F7BE1400B127E3 /* StoreSearchProxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8786C2720F7BE1400B127E3 /* StoreSearchProxyUITests.swift */; };
+		E8786C3620F7C98A00B127E3 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8786C3520F7C98A00B127E3 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E8786C2320F7BE1400B127E3 /* StoreSearchProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreSearchProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8786C2720F7BE1400B127E3 /* StoreSearchProxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSearchProxyUITests.swift; sourceTree = "<group>"; };
 		E8786C2920F7BE1400B127E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8786C3520F7C98A00B127E3 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E8786C0720F7BE1400B127E3 /* AppDelegate.swift */,
 				E8786C0920F7BE1400B127E3 /* SearchViewController.swift */,
+				E8786C3520F7C98A00B127E3 /* SearchResult.swift */,
 				E8786C0B20F7BE1400B127E3 /* Main.storyboard */,
 				E8786C0E20F7BE1400B127E3 /* Assets.xcassets */,
 				E8786C1020F7BE1400B127E3 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8786C0A20F7BE1400B127E3 /* SearchViewController.swift in Sources */,
+				E8786C3620F7C98A00B127E3 /* SearchResult.swift in Sources */,
 				E8786C0820F7BE1400B127E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
