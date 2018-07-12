@@ -11,9 +11,9 @@ import UIKit
 class SearchResultCell: UITableViewCell {
 
     //MARK:- Outlets/Fields
-    @IBOutlet weak var nameLabel : UILabel!
-    @IBOutlet weak var artistNameLabel : UILabel!
-    @IBOutlet weak var artworkImageView : UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var artistNameLabel: UILabel!
+    @IBOutlet weak var artworkImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
