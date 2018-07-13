@@ -18,6 +18,7 @@
 		E8786C3820F7D4C700B127E3 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8786C3720F7D4C700B127E3 /* SearchResultCell.xib */; };
 		E8786C3A20F7D7BA00B127E3 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8786C3920F7D7BA00B127E3 /* SearchResultCell.swift */; };
 		E8786C3C20F8041500B127E3 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8786C3B20F8041500B127E3 /* NothingFoundCell.xib */; };
+		E8786C3E20F9208800B127E3 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8786C3D20F9208800B127E3 /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E8786C3720F7D4C700B127E3 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		E8786C3920F7D7BA00B127E3 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		E8786C3B20F8041500B127E3 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		E8786C3D20F9208800B127E3 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				E8786C0720F7BE1400B127E3 /* AppDelegate.swift */,
 				E8786C0920F7BE1400B127E3 /* SearchViewController.swift */,
+				E8786C3D20F9208800B127E3 /* LoadingCell.xib */,
 				E8786C3520F7C98A00B127E3 /* SearchResult.swift */,
 				E8786C3920F7D7BA00B127E3 /* SearchResultCell.swift */,
 				E8786C3720F7D4C700B127E3 /* SearchResultCell.xib */,
@@ -246,6 +249,7 @@
 			files = (
 				E8786C1220F7BE1400B127E3 /* LaunchScreen.storyboard in Resources */,
 				E8786C0F20F7BE1400B127E3 /* Assets.xcassets in Resources */,
+				E8786C3E20F9208800B127E3 /* LoadingCell.xib in Resources */,
 				E8786C3820F7D4C700B127E3 /* SearchResultCell.xib in Resources */,
 				E8786C3C20F8041500B127E3 /* NothingFoundCell.xib in Resources */,
 				E8786C0D20F7BE1400B127E3 /* Main.storyboard in Resources */,
